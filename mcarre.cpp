@@ -21,4 +21,10 @@ int main() {
 	a.Setsy(3);
 	a.Setcote(4);
 	a.Afficher();
+	a.Deplacer('o', 6);
+	a.Deplacer('n', 4);
+	a.AfficherDeplacement();
+	a.Deplacer('e', 9);
+	a.Deplacer('s', 12);
+	a.AfficherDeplacement();
 }

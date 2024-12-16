@@ -36,6 +36,12 @@ class CCarre {
 		// Paramètres en sortie : 
 		// Valeur de retour : 
 		// traitement 
+		void AfficherDeplacement();
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
 		int Getsx();
 
 		// Paramètres en entrée : 
@@ -49,4 +55,13 @@ class CCarre {
 		// Valeur de retour : 
 		// traitement 
 		int GetCote();
+
+		// "Déplace" le carré sans le dessiner. Les attributs x et y  
+		// sont modifiés en ajoutant ou retranchant la valeur de saut en fonction de  
+		// la direction : par ex direction nord saut=2 y=y-2 
+		// Entrées : 
+		//  - direction : vaut 'n' si nord, 's' si sud, 'o' si ouest, 'e' si est 
+		//   - saut : nombre de pixels de déplacement du carré 
+		// Sortie : Aucune 
+		void Deplacer(char direction, int saut);
 };

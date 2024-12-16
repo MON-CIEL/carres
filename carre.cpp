@@ -22,8 +22,14 @@ void CCarre::Setcote(int cote1) {
 }
 
 void CCarre::Afficher() {
-	cout << endl << "Le carre a pour coordonnées sx la valeur suivante " << this->sx << " et la valeur retournee est de " << Getsx() << endl;
-	cout << endl << "Le carre a pour coordonnées sy la valeur suivante " << this->sy << " et la valeur retournee est de " << Getsy() << endl;
+	cout << endl << "Le carre a pour coordonnees sx la valeur suivante " << this->sx << " et la valeur retournee est de " << Getsx() << endl;
+	cout << endl << "Le carre a pour coordonnees sy la valeur suivante " << this->sy << " et la valeur retournee est de " << Getsy() << endl;
+	cout << endl << "Le carre a pour cote la valeur suivante " << this->cote << " et la valeur retournee est de " << GetCote() << endl;
+}
+
+void CCarre::AfficherDeplacement() {
+	cout << endl << "Le carre a pour coordonnees sx apres deplacement la valeur suivante " << this->sx << " et la valeur retournee est de " << Getsx() << endl;
+	cout << endl << "Le carre a pour coordonnees sy apres deplacement la valeur suivante " << this->sy << " et la valeur retournee est de " << Getsy() << endl;
 	cout << endl << "Le carre a pour cote la valeur suivante " << this->cote << " et la valeur retournee est de " << GetCote() << endl;
 }
 
@@ -40,4 +46,23 @@ int CCarre::Getsy() {
 
 int CCarre::GetCote() {
 	return this->cote;
+}
+
+void CCarre::Deplacer(char direction, int saut) {
+	switch (direction)
+	{
+	default:
+		break;
+	case 'n':
+		sy = sy + saut;
+		break;
+	case 's':
+		sy = sy - saut;
+		break;
+	case 'o':
+		sx = sx - saut;
+		break;
+	case 'e':
+		sx = sx + saut;
+	}
 }
