@@ -27,4 +27,6 @@ int main() {
 	a.Deplacer('e', 9);
 	a.Deplacer('s', 12);
 	a.AfficherDeplacement();
+	a.Deplacer(10, 10);
+	a.AfficherDeplacement();
 }

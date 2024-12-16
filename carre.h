@@ -64,4 +64,10 @@ class CCarre {
 		//   - saut : nombre de pixels de déplacement du carré 
 		// Sortie : Aucune 
 		void Deplacer(char direction, int saut);
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
+		void Deplacer(int dx, int dxy);
 };
