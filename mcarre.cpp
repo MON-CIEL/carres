@@ -16,4 +16,9 @@ using namespace std;
 
 
 int main() {
+	CCarre a;
+	a.Setsx(2);
+	a.Setsy(3);
+	a.Setcote(4);
+	a.Afficher();
 }
