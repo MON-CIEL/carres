@@ -31,4 +31,22 @@ class CCarre {
 		// Valeur de retour : 
 		// traitement 
 		void Afficher();
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
+		int Getsx();
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
+		int Getsy();
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
+		int GetCote();
 };
