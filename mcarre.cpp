@@ -106,7 +106,7 @@ int main() {
 	
 	cout << endl << "	------------------------------------------------------------------------------------------" << endl;
 
-	// Carre sur Allocation de Memoire sur le tas
+	// Carree sur Allocation de Memoire sur le tas
 	CCarre *Carre2;
 	Carre2 = new CCarre;
 	Carre2->Afficher();
