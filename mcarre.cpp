@@ -17,7 +17,7 @@ using namespace std;
 
 int main() {
 	
-	/* Declarations Variables */
+	// Declarations Variables 
 	CCarre a;
 	int valeurSx;
 	int valeurSy;
@@ -103,4 +103,15 @@ int main() {
 	CCarre carreTest;
 	cout << endl << " Voici un test du constructeur " << endl;
 	carreTest.Afficher();
+	
+	cout << endl << "	------------------------------------------------------------------------------------------" << endl;
+
+	// Carre sur Allocation de Memoire sur le tas
+	CCarre *Carre2;
+	Carre2 = new CCarre;
+	Carre2->Afficher();
+	delete Carre2;
+	
+	cout << endl << "	------------------------------------------------------------------------------------------" << endl;
+
 }
