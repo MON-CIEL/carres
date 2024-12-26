@@ -99,7 +99,7 @@ int main() {
 		cout << endl << "	---------------------------------------------" << endl;
 	}
 
-	// Test du Constructeur
+	// Test des Constructeur 
 	CCarre carreTest;
 	cout << endl << " Voici un test du constructeur " << endl;
 	carreTest.Afficher();
