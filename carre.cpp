@@ -5,6 +5,16 @@ using namespace std;
 
 
 
+CCarre::CCarre(){
+	sx = 0;
+	sy = 0;
+	cote = 0;
+}
+
+CCarre::CCarre(int sx , int sy , int cote){
+
+}
+
 void CCarre::Setsx(int sx1) {
 	this->sx = sx1;
 	CCarre::Getsx();
@@ -83,13 +93,13 @@ void CCarre::Deplacer(char direction, int saut) {
 	case 'n':
 		sy = sy + saut;
 		break;
-	case 's':
+	case 's' :
 		sy = sy - saut;
 		break;
 	case 'o':
 		sx = sx - saut;
 		break;
-	case 'e':
+	case 'e' :
 		sx = sx + saut;
 	}
 }
@@ -98,3 +108,4 @@ void CCarre::Deplacer(int dx, int dy) {
 	sx = sx + dx;
 	sy = sy + dy;
 }
+

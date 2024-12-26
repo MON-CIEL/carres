@@ -12,6 +12,18 @@ class CCarre {
 		// Paramètres en sortie : 
 		// Valeur de retour : 
 		// traitement 
+		CCarre();
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
+		CCarre(int sx, int sy ,int cote);
+
+		// Paramètres en entrée : 
+		// Paramètres en sortie : 
+		// Valeur de retour : 
+		// traitement 
 		void Setsx(int sx1);
 
 		// Paramètres en entrée : 
